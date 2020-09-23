@@ -1,49 +1,69 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
     <title>Coding Quiz Challenge</title>
-  </head>
-  <body>
-      <main>
-          
+</head>
+
+<body>
+    <main>
+
         <div class="card text-center">
             <div class="card-header">
-             
+
             </div>
             <div class="card-body">
-              
-                   <h1 class="card-title">Welcome to the Coding Quiz Challenge</h1>
-              <p class="card-text">Try to answer the following code-related questions within the time limit.</p>
-              
-             <h4>Here are the rules:</h4>
-            
-                 <p>You will have 2 minutes to answer all questions.</p>
-                 <p>You must answer all multiple choice questions in order to view your score.</p> 
-                 <p>Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>  
-                 <br>
-                 <p>Good luck</p>
-            
-              <a href="#" class="btn btn-primary">Start Quiz!</a>
+
+                <h1 class="card-title">Welcome to the Coding Quiz Challenge</h1>
+                <p class="card-text">Try to answer the following code-related questions within the time limit.</p>
+
+                <h4>Here are the rules:</h4>
+
+                <p>You will have 2 minutes to answer all questions.</p>
+                <p>You must answer all multiple choice questions in order to view your score.</p>
+                <p>Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+                <br>
+                <p>Good luck</p>
+
+                <a href="#" class="btn btn-primary">Start Quiz!</a>
             </div>
             <div class="card-footer text-muted">
-              
+<!-- 
             </div>
-          </div>
-    
-    
-    
-    
-    
-    
-    
+        </div>
+        <div class="quiz">
+            <div id="countdown-timer">
+            </div>
+            <div id="question">
+                <p>Commonly used data types DO NOT include:</p>
+                <ul>
+                     <li>Strings</li>
+                     <li>Booleans</li>
+                     <li>Alerts</li>
+                     <li>Numbers</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="choices">
+        </div>
+        <div id="score">
+            <p>Your current score is: <span></span></p>
+        </div>
+    </div>  
+    <div id="answer"></div>
+    <div id="total-score">
+        <p>Your total score: <span></span></p>
+    </div> -->
 
 
 
@@ -54,15 +74,28 @@
 
 
 
-      </main>
-    
+
+
+
+
+
+
+    </main>
+
 
     <!-- Optional JavaScript -->
     <script src="script.js">        </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
