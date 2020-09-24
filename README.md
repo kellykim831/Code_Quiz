@@ -10,6 +10,9 @@ Building the code quiz was probably the hardest homework assigned so far. I wrot
 
 If the incorrect answer is selected the answer will turn red. If the correct answer is selected then the answer will turn green.
 
+![Image](1.png)
+![Image](2.png)
+
 ### Installing/Technology Used
 
 The following platforms were required to build this website:
