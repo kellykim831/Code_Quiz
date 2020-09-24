@@ -39,7 +39,7 @@ var questions = [
     },
 ];
 
-
+//How to get timer to work when pressing start quiz? :(
 startButton.addEventListener('click', startQuiz);
 
 // When selecting an answer, verifyAnswer will verify if it's the correct
@@ -137,3 +137,4 @@ function clearChoices() {
 function endQuiz(){
     quiz.style.display = 'none';
 }
+
