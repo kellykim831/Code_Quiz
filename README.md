@@ -8,10 +8,6 @@ Building the code quiz was probably the hardest homework assigned so far. I wrot
 
 ![Image](codequiz.png)
 
-<!-- I never thought I would be so happy to see random characters/numbers generated. It was extremely satisfying to see the password generated below:
-
-![Image](screenshot13.png) -->
-
 ### Installing/Technology Used
 
 The following platforms were required to build this website:
