@@ -14,31 +14,29 @@
     <title>Coding Quiz Challenge</title>
 </head>
 
-<body>
+<body onload="showHideQuiz()">
     <main>
 
         <div class="card text-center">
-            <div class="card-header">
+        
+        <div class="card-body rules">
 
-            </div>
-            <div class="card-body">
+            <h1 class="card-title">Welcome to the Coding Quiz Challenge</h1>
+            <p class="card-text">Try to answer the following code-related questions within the time limit.</p>
 
-                <h1 class="card-title">Welcome to the Coding Quiz Challenge</h1>
-                <p class="card-text">Try to answer the following code-related questions within the time limit.</p>
+            <h4>Here are the rules:</h4>
 
-                <h4>Here are the rules:</h4>
+            <p>You will have 2 minutes to answer all questions.</p>
+            <p>You must answer all multiple choice questions in order to view your score.</p>
+            <p>Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+            <br>
+            <p>Good luck</p>
 
-                <p>You will have 2 minutes to answer all questions.</p>
-                <p>You must answer all multiple choice questions in order to view your score.</p>
-                <p>Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
-                <br>
-                <p>Good luck</p>
+            <button class="btn btn-primary start">Start Quiz!</button>
+        </div>
+        <div class="card-footer text-muted">
 
-                <a href="#" class="btn btn-primary">Start Quiz!</a>
-            </div>
-            <div class="card-footer text-muted">
-<!-- 
-            </div>
+        </div>
         </div>
         <div class="quiz">
             <div id="countdown-timer">
@@ -46,37 +44,12 @@
             <div id="question">
                 <p>Commonly used data types DO NOT include:</p>
                 <ul>
-                     <li>Strings</li>
-                     <li>Booleans</li>
-                     <li>Alerts</li>
-                     <li>Numbers</li>
+                    <li class="choice">Strings</li>
+                    <li class="choice">Booleans</li>
+                    <li class="choice">Alerts</li>
+                    <li class="choice">Numbers</li>
                 </ul>
             </div>
-        </div>
-
-        <div id="choices">
-        </div>
-        <div id="score">
-            <p>Your current score is: <span></span></p>
-        </div>
-    </div>  
-    <div id="answer"></div>
-    <div id="total-score">
-        <p>Your total score: <span></span></p>
-    </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
