@@ -8,6 +8,8 @@ Building the code quiz was probably the hardest homework assigned so far. I wrot
 
 ![Image](codequiz.png)
 
+If the incorrect answer is selected the answer will turn red. If the correct answer is selected then the answer will turn green.
+
 ### Installing/Technology Used
 
 The following platforms were required to build this website:
